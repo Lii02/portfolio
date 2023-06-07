@@ -8,6 +8,8 @@ import { Component, Input } from '@angular/core';
 
 export class ProjectComponent {
   @Input() projectName: string;
+  @Input() projectDescription: string;
+  @Input() image: string;
 
   constructor() { }
 }

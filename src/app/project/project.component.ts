@@ -11,6 +11,7 @@ export class ProjectComponent implements OnInit {
   @Input() projectName: string;
   @Input() projectDescriptionSrc: string;
   @Input() image: string;
+  @Input() link: string;
 
   projectDescription: string;
 

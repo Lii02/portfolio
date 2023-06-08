@@ -1,13 +1,13 @@
-<div>
-   <button class="w-[50%] h-[50%]">
-       <img src={{image}} />
-   </button>
-
-    <p class="text-red-200">
-        <span class="font-bold">Name:</span> {{projectName}}
+<div class="bg-gray-600 rounded-md m-2">
+    <p class="font-bold italic text-red-200 text-center p-2">
+        {{projectName}}
     </p>
 
-    <p class="text-red-500">
-        {{projectDescription}}
+    <button>
+        <img class="project-image" src={{image}} />
+    </button>
+
+    <p class="text-red-500 p-2">
+        <span class="font-bold">Description:</span> {{projectDescription}}
     </p>
 </div>

@@ -1,0 +1,1 @@
+A simple sign in system I wrote in TypeScript and Python using React for the frontend, and Flask as the backend. I used the sqlite3 library for managing the database(s). Click on image to go to GitHub page.

@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-project',
@@ -6,10 +7,19 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./project.component.css']
 })
 
-export class ProjectComponent {
+export class ProjectComponent implements OnInit {
   @Input() projectName: string;
-  @Input() projectDescription: string;
+  @Input() projectDescriptionSrc: string;
   @Input() image: string;
 
-  constructor() { }
+  projectDescription: string;
+
+  constructor(private http: HttpClient) { }
+
+  ngOnInit(): void {
+    this.http.get(this.projectDescriptionSrc, { responseType: 'text' })
+      .subscribe(fileContent => {
+        this.projectDescription = fileContent;
+    })
+  }
 }

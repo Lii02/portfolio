@@ -18,6 +18,7 @@ export class ProjectComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
+    // Retrieved the description file from assets
     this.http.get(this.projectDescriptionSrc, { responseType: 'text' })
       .subscribe(fileContent => {
         this.projectDescription = fileContent;

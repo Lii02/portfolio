@@ -5,7 +5,10 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    fontFamily: {},
+    fontFamily: {
+      oswald: ["Oswald"],
+      montserrat: ["Montserrat"]
+    },
     extend: {},
   },
   plugins: [],

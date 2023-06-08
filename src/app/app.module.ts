@@ -21,7 +21,9 @@ import { ProjectComponent } from './project/project.component';
     HttpClientModule,
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    HttpClientModule
+  ],
   bootstrap: [RootComponent]
 })
 

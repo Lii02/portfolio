@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectComponent } from './project/project.component';
+import { MediaComponent } from './media/media.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProjectComponent } from './project/project.component';
     ContactComponent,
     ProjectsComponent,
     AboutComponent,
-    ProjectComponent
+    ProjectComponent,
+    MediaComponent
   ],
   imports: [
     HttpClientModule,

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { RootComponent } from './root.component';
+import { AppComponent } from './app.component';
 import { TitlebarComponent } from './titlebar/titlebar.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -10,7 +10,7 @@ import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
-    RootComponent,
+    AppComponent,
     TitlebarComponent,
     ContactComponent,
     ProjectsComponent,
@@ -24,7 +24,7 @@ import { ProjectComponent } from './project/project.component';
   providers: [
     HttpClientModule
   ],
-  bootstrap: [RootComponent]
+  bootstrap: [AppComponent]
 })
 
 export class AppModule { }

@@ -1,1 +1,1 @@
-Written in C# using Windows Forms. It is a fully customizable simulation. Click on image to go to source code.
+Written in C# using Windows Forms. The simulation is fully customizable. Click on image to go to source code.

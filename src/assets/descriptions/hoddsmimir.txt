@@ -1,2 +1,1 @@
-Programmer, Level Designer, Audio Engineer
-Hoddsmimir was made in a team of 5 people over 3 months in the Unity engine. Click on image to go to itch.io link.
+A 3 month long project with a 5 person team. The game was made in the Unity Engine. My work included, but not limited to: WebGL port, audio, inventory. Click on image to go to itch.io link.

@@ -1,7 +1,0 @@
-@tailwind components;
-
-@layer components {
-    .project-image {
-        @apply rounded-3xl scale-[.8] hover:rounded-xl hover:scale-90 transition-all
-    }
-}

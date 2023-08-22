@@ -8,7 +8,8 @@ export default {
   theme: {
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
-      oswald: ['Oswald', 'sans-serif']
+      oswald: ['Oswald', 'sans-serif'],
+      oxygen: ['Oxygen', 'sans-serif']
     },
     extend: {},
   },

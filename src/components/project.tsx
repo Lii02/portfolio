@@ -24,10 +24,10 @@ function Project({ projectName, descriptionSrc, link, image }) {
       </p>
 
       <a href={link} target='_blank'>
-        <img className='rounded-3xl scale-[.8] hover:rounded-xl hover:scale-90 transition-all' src={image} />
+        <img className='rounded-3xl scale-75 hover:rounded-xl hover:scale-90 transition-all' src={image} />
       </a>
 
-      <p className='text-gray-100'>
+      <p className='text-gray-100 font-roboto'>
         <span className='font-bold'>Description:</span> {descriptionText}
       </p>
     </div>

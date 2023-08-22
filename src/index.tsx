@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom/client';
 import NavBar from './components/navbar';
 import About from './components/about';
 import Projects from './components/projects';
-import Media from './components/media';
 import Contact from './components/contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
@@ -15,7 +14,6 @@ root.render(
     <NavBar />
     <About />
     <Projects />
-    <Media />
     <Contact />
   </div>
 );

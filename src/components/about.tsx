@@ -1,17 +1,18 @@
 import React from 'react';
+import { headerStyle } from '../styles';
 
 function About() {
   return (
     <div className='bg-gray-500'>
-      <h1 className='font-roboto text-xl text-white text-center'>
+      <h1 className={headerStyle}>
         About
       </h1>
 
-      <p>
+      <p className='font-roboto'>
         My name is Luke Inlow, I am from Virginia and I am 21 years old. I've been programming since I was around 12 years old. I've worked on projects such as operating systems, compilers, video games, game engines, and full stack web apps. If you need my résumé, please email me (email address below).
       </p>
 
-      <div className='grid grid-cols-3 justify-items-center items-center'>
+      <div className='grid grid-cols-3 justify-items-center items-center font-roboto'>
         <div>
           <h1 className='font-bold underline'>
             Education

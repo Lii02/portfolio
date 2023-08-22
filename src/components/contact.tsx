@@ -3,13 +3,12 @@ import React from 'react';
 import GithubIcon from '../assets/icons/github-mark-white.png';
 import ItchioIcon from '../assets/icons/itchio.png';
 import LinkedinIcon from '../assets/icons/linkedin.png';
+import { headerStyle, iconStyle } from '../styles';
 
 function Contact() {
-  const iconStyle = 'w-16 h-16';
-
   return (
-    <div className='bg-gradient-to-t from-gray-400 to-gray-500'>
-      <h1 className='flex font-roboto text-xl text-center justify-center'>
+    <div className='font-roboto bg-gradient-to-t from-gray-400 to-gray-500'>
+      <h1 className={headerStyle}>
         Contact
       </h1>
 

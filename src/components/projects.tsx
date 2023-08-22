@@ -19,15 +19,16 @@ import HoddsmimirDesc from '../assets/descriptions/hoddsmimir.txt';
 
 import FlappyBirdImage from '../assets/images/FlappyBirdClone.png';
 import FlappyBirdDesc from '../assets/descriptions/flappy.txt';
+import { headerStyle } from '../styles';
 
 function Projects() {
   return (
     <div className='bg-gray-500'>
-      <h1 className='flex font-roboto text-xl text-white text-center justify-center'>
+      <h1 className={headerStyle}>
         Projects
       </h1>
       
-      <div className='grid grid-cols-2'>
+      <div className='grid grid-cols-3'>
         <Project projectName='Sign In System' descriptionSrc={SignInDesc} link='https://github.com/Lii02/signin-system' image={SignInImage} />
         <Project projectName='FPS Dungeon' descriptionSrc={FPSDungeonDesc} link='' image={FPSDungeonImage} />
         <Project projectName='GOL' descriptionSrc={GOLDesc} link='https://github.com/Lii02/ConwayGOL' image={GOLImage} />

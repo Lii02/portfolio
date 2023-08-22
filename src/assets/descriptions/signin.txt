@@ -1,0 +1,1 @@
+A very simple sign in system I wrote in TypeScript and Python, using React and Flask. I made it just to learn the ins and outs of full stack. Click on image to go to GitHub page.

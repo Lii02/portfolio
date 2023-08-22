@@ -5,3 +5,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  div {
+  }
+  
+  a {
+    @apply text-white underline italic;
+  }
+
+  p {
+    @apply font-roboto;
+  }
+
+  h1 {
+    @apply font-oxygen text-xl text-white text-center justify-center;
+  }
+
+  h2, h3 {
+    @apply font-oxygen;
+  }
+
+  .navbarHeader {
+    @apply font-oxygen text-xl text-white;
+  }
+
+  .icon {
+    @apply w-16 h-16;
+  }
+
+  .projectTitle {
+    @apply font-bold italic text-gray-200 text-center;
+  }
+  
+  /* Education, skills, and experience */
+  .statHeader {
+    @apply font-bold underline;
+  }
+}

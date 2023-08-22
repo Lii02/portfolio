@@ -19,18 +19,17 @@ import HoddsmimirDesc from '../assets/descriptions/hoddsmimir.txt';
 
 import FlappyBirdImage from '../assets/images/FlappyBirdClone.png';
 import FlappyBirdDesc from '../assets/descriptions/flappy.txt';
-import { headerStyle } from '../styles';
 
 function Projects() {
   return (
     <div className='bg-gray-500'>
-      <h1 className={headerStyle}>
+      <h1>
         Projects
       </h1>
       
       <div className='grid grid-cols-3'>
         <Project projectName='Sign In System' descriptionSrc={SignInDesc} link='https://github.com/Lii02/signin-system' image={SignInImage} />
-        <Project projectName='FPS Dungeon' descriptionSrc={FPSDungeonDesc} link='' image={FPSDungeonImage} />
+        <Project projectName='FPS Dungeon' descriptionSrc={FPSDungeonDesc} link='https://lii02dev.itch.io/fps-dungeon' image={FPSDungeonImage} />
         <Project projectName='GOL' descriptionSrc={GOLDesc} link='https://github.com/Lii02/ConwayGOL' image={GOLImage} />
         <Project projectName='Vulkan Renderer' descriptionSrc={VulkanRendererDesc} link='https://github.com/Lii02/LevelRenderer' image={VulkanRendererImage} />
         <Project projectName='Hoddsmimir' descriptionSrc={HoddsmimirDesc} link='https://lii02dev.itch.io/hoddsmimir"' image={HoddsmimirImage} />

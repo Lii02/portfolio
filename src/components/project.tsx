@@ -24,7 +24,7 @@ function Project({ projectName, descriptionSrc, link, image }) {
       </h3>
 
       <a href={link} target='_blank'>
-        <img className='rounded-1xl hover:rounded-xl hover:scale-[1.05] transition-all' src={image} />
+        <img className='rounded-xl hover:rounded-2xl hover:scale-[1.05] transition-all' src={image} />
       </a>
 
       <p className='text-gray-100'>

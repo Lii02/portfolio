@@ -6,7 +6,7 @@ import LinkedinIcon from '../assets/icons/linkedin.png';
 
 function Contact() {
   return (
-    <div className='bg-gradient-to-t from-gray-400 to-gray-500'>
+    <div className='p-4 bg-gradient-to-t from-gray-400 to-gray-500'>
       <h1>
         Contact
       </h1>

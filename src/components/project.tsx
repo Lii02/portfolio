@@ -18,13 +18,13 @@ function Project({ projectName, descriptionSrc, link, image }) {
   });
 
   return (
-    <div className='bg-neutral-800 rounded-md'>
+    <div className='m-4 p-2'>
       <h3 className='projectTitle'>
         {projectName}
       </h3>
 
       <a href={link} target='_blank'>
-        <img className='rounded-3xl scale-75 hover:rounded-xl hover:scale-90 transition-all' src={image} />
+        <img className='rounded-1xl hover:rounded-xl hover:scale-[1.05] transition-all' src={image} />
       </a>
 
       <p className='text-gray-100'>

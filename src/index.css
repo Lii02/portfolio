@@ -7,9 +7,6 @@
 @tailwind utilities;
 
 @layer components {
-  div {
-  }
-  
   a {
     @apply text-white underline italic;
   }
@@ -18,20 +15,20 @@
     @apply font-roboto;
   }
 
-  h1 {
-    @apply font-oxygen text-xl text-white text-center justify-center;
-  }
-
-  h2, h3 {
+  h1, h2, h3 {
     @apply font-oxygen;
   }
 
+  h1 {
+    @apply text-xl my-4 text-white text-center justify-center;
+  }
+
   .navbarHeader {
-    @apply font-oxygen text-xl text-white;
+    @apply font-oxygen text-xl p-4 text-white;
   }
 
   .icon {
-    @apply w-16 h-16;
+    @apply w-16 h-16 m-2;
   }
 
   .projectTitle {

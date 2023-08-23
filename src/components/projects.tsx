@@ -9,7 +9,7 @@ import FPSDungeonImage from '../assets/images/FPSDungeon.png';
 import FPSDungeonDesc from '../assets/descriptions/fps.txt';
 
 import GOLImage from '../assets/images/GOL.png';
-import GOLDesc from '../assets/descriptions/GOL.txt';
+import GOLDesc from '../assets/descriptions/gol.txt';
 
 import VulkanRendererImage from '../assets/images/VulkanRenderer.jpg';
 import VulkanRendererDesc from '../assets/descriptions/renderer.txt';

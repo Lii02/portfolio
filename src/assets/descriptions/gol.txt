@@ -1,1 +1,0 @@
-Written in C# using Windows Forms. The simulation is fully customizable. Click on image to go to source code.

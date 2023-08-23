@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  mode: "jit",
+
+export default {
+  mode: 'jit',
   content: [
-    "./src/**/*.{html,ts}",
-  ],
+		'./index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+	],
   theme: {
     fontFamily: {
-      oswald: ["Oswald"],
-      montserrat: ["Montserrat"]
+      roboto: ['Roboto', 'sans-serif'],
+      oswald: ['Oswald', 'sans-serif'],
+      oxygen: ['Oxygen', 'sans-serif']
     },
     extend: {},
   },

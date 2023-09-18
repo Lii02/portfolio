@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './project';
 
 // Project images and description files
-import SignInImage from '../assets/images/SignIn.png';
+import SignInImage from '../assets/images/SignInUpdated.png';
 import SignInDesc from '../assets/descriptions/signin.txt';
 
 import FPSDungeonImage from '../assets/images/FPSDungeon.png';

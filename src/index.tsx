@@ -1,13 +1,14 @@
 import './index.css';
 
-import React from 'react';
+import React, { lazy } from 'react';
 import ReactDOM from 'react-dom/client';
-import NavBar from './components/navbar';
-import About from './components/about';
-import Projects from './components/projects';
-import Contact from './components/contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+
+const NavBar = lazy(() => import('./components/navbar'));
+const About = lazy(() => import('./components/about'));
+const Projects = lazy(() => import('./components/projects'));
+const Contact = lazy(() => import('./components/contact'));
 
 root.render(
   <div>

@@ -3,9 +3,9 @@
 export default {
   mode: 'jit',
   content: [
-		'./index.html',
+    './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
-	],
+  ],
   theme: {
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
@@ -15,4 +15,4 @@ export default {
     extend: {},
   },
   plugins: [],
-}
+};

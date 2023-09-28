@@ -1,18 +1,25 @@
 import React, { useEffect, useState } from 'react';
 
-function Project({ projectName, descriptionSrc, link, image }) {
+interface ProjectProps {
+  projectName: string;
+  descriptionSrc: string;
+  link: string;
+  image: string;
+}
+
+function Project(props: ProjectProps) {
   const [descriptionText, setDescriptionText] = useState<string>('');
 
   useEffect(() => {
     const loadDesc = async () => {
       try {
-        const res = await fetch(descriptionSrc);
+        const res = await fetch(props.descriptionSrc);
         const text = await res.text();
         setDescriptionText(text);
       } catch (error) {
-        console.error(`Error loading description file: ${descriptionSrc} Error: ${error}`);
+        console.error(`Error loading description file: ${props.descriptionSrc} Error: ${error}`);
       }
-    }
+    };
 
     loadDesc();
   });
@@ -20,11 +27,11 @@ function Project({ projectName, descriptionSrc, link, image }) {
   return (
     <div className='m-4 p-2'>
       <h3 className='projectTitle'>
-        {projectName}
+        {props.projectName}
       </h3>
 
-      <a href={link} target='_blank'>
-        <img className='rounded-xl hover:rounded-2xl hover:scale-[1.05] transition-all' src={image} />
+      <a href={props.link} target='_blank' rel='noreferrer'>
+        <img className='rounded-xl hover:rounded-2xl hover:scale-[1.05] transition-all' src={props.image} />
       </a>
 
       <p className='text-gray-100'>

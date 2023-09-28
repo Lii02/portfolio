@@ -18,20 +18,20 @@ function Contact() {
         Discord: li02
       </p>
 
-      <a href='https://github.com/Lii02/portfolio' target='_blank'>
+      <a href='https://github.com/Lii02/portfolio' target='_blank' rel='noreferrer'>
         Source Code
       </a>
 
       <div className='flex justify-center'>
-        <a className='icon' href='https://github.com/Lii02' target='_blank'>
+        <a className='icon' href='https://github.com/Lii02' target='_blank' rel='noreferrer'>
           <img src={GithubIcon} alt='GitHub' />
         </a>
 
-        <a className='icon' href='https://lii02dev.itch.io/' target='_blank'>
+        <a className='icon' href='https://lii02dev.itch.io/' target='_blank' rel='noreferrer'>
           <img src={ItchioIcon} alt='itch.io' />
         </a>
 
-        <a className='icon' href='https://www.linkedin.com/in/luke-inlow-709b81100/' target='_blank'>
+        <a className='icon' href='https://www.linkedin.com/in/luke-inlow-709b81100/' target='_blank' rel='noreferrer'>
           <img src={LinkedinIcon} alt='LinkedIn' />
         </a>
       </div>

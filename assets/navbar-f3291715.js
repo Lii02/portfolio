@@ -1,1 +1,0 @@
-import{j as a}from"./index-d8ad14a8.js";function e(){return a.jsx("nav",{className:"p-4 bg-gradient-to-b from-gray-400 to-gray-500",children:a.jsx("span",{className:"navbarHeader",children:"Luke Inlow - Programmer"})})}export{e as default};

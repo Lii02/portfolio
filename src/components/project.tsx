@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { readText } from '../util/read';
 
 interface ProjectProps {
   projectName: string;
@@ -11,27 +12,19 @@ function Project(props: ProjectProps) {
   const [descriptionText, setDescriptionText] = useState<string>('');
 
   useEffect(() => {
-    const loadDesc = async () => {
-      try {
-        const res = await fetch(props.descriptionSrc);
-        const text = await res.text();
-        setDescriptionText(text);
-      } catch (error) {
-        console.error(`Error loading description file: ${props.descriptionSrc} Error: ${error}`);
-      }
-    };
-
-    loadDesc();
-  });
+    readText(props.descriptionSrc, (value: string) => {
+      setDescriptionText(value);
+    });
+  }, []);
 
   return (
-    <div className='m-4 p-2'>
+    <div className='m-2'>
       <h3 className='projectTitle'>
         {props.projectName}
       </h3>
 
       <a href={props.link} target='_blank' rel='noreferrer'>
-        <img className='rounded-xl hover:rounded-2xl hover:scale-[1.05] transition-all' src={props.image} />
+        <img className='rounded-xl hover:rounded-2xl hover:scale-[1.01] transition-all w-[100%]' src={props.image} />
       </a>
 
       <p className='text-gray-100'>

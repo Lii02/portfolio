@@ -2,9 +2,9 @@ import React from 'react';
 
 function NavBar() {
   return (
-    <nav className='p-4 bg-gradient-to-b from-gray-400 to-gray-500'>
+    <nav className='px-4 py-10 bg-gradient-to-b from-sky-800 to-slate-500'>
       <span className='navbarHeader'>
-          Luke Inlow - Programmer
+          Luke Inlow - Software Developer
       </span>
     </nav>
   );

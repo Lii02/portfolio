@@ -12,7 +12,7 @@
   }
 
   p {
-    @apply font-roboto;
+    @apply font-roboto text-gray-900;
   }
 
   h1, h2, h3 {
@@ -27,16 +27,12 @@
     @apply font-oxygen text-xl p-4 text-white;
   }
 
-  .icon {
-    @apply w-16 h-16 m-2;
-  }
-
   .projectTitle {
     @apply font-bold italic text-gray-200 text-center;
   }
   
   /* Education, skills, and experience */
   .statHeader {
-    @apply font-bold underline;
+    @apply font-bold underline text-gray-800;
   }
 }

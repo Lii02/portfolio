@@ -1,4 +1,4 @@
-import './index.css';
+import './styles/global.css';
 
 import React, { lazy } from 'react';
 import ReactDOM from 'react-dom/client';

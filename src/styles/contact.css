@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+  a {
+    @apply text-white underline italic;
+  }
+
+  .icon {
+    @apply w-16 h-16 m-2;
+  }
+}

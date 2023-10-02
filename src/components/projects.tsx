@@ -1,5 +1,6 @@
-import React from 'react';
-import Project from './project';
+import React, { lazy } from 'react';
+
+const Project = lazy(() => import('./project'));
 
 // Project images and description files
 import SignInImage from '../assets/images/SignInUpdated.png';

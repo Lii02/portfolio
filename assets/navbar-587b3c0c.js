@@ -1,0 +1,1 @@
+import{j as a}from"./index-69ccafa3.js";function r(){return a.jsx("nav",{className:"px-4 py-10 bg-gradient-to-b from-sky-800 to-slate-500",children:a.jsx("span",{className:"navbarHeader",children:"Luke Inlow - Software Developer"})})}export{r as default};

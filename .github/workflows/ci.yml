@@ -2,11 +2,9 @@ name: React CI
 
 on:
   push:
-    branches:
-      - master
+    branches: ['master']
   pull_request:
-    branches:
-      - master
+    branches: ['master']
 
 jobs:
   build:
@@ -22,7 +20,7 @@ jobs:
           node-version: 20
       
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: React Build
         run: npm run build

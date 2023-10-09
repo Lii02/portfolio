@@ -11,10 +11,13 @@ const Projects = lazy(() => import('./components/projects'));
 const Contact = lazy(() => import('./components/contact'));
 
 root.render(
-  <div>
+  <>
     <NavBar />
+    <hr />
     <About />
+    <hr />
     <Projects />
+    <hr />
     <Contact />
-  </div>
+  </>
 );

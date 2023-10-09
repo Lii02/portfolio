@@ -23,7 +23,7 @@ import FlappyBirdDesc from '../assets/descriptions/flappy.txt';
 
 function Projects() {
   return (
-    <div className='p-4 bg-slate-500'>
+    <div className='p-4 background'>
       <h1>
         Projects
       </h1>

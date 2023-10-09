@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen');
 
+html {
+  scroll-behavior: smooth;
+}
+
+hr {
+  border-top: 2px solid #9e9e9e;
+  border-radius: 5px;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +21,7 @@
   }
 
   p {
-    @apply font-roboto text-gray-900;
+    @apply text-white font-roboto;
   }
 
   h1, h2, h3 {
@@ -20,19 +29,31 @@
   }
 
   h1 {
-    @apply text-xl my-4 text-white text-center justify-center;
+    @apply text-white text-xl my-4 text-center justify-center;
   }
 
   .navbarHeader {
-    @apply font-oxygen text-xl p-4 text-white;
+    @apply text-white font-oxygen text-xl p-4;
   }
 
   .projectTitle {
-    @apply font-bold italic text-gray-200 text-center;
+    @apply text-gray-200 font-bold italic text-center;
   }
   
   /* Education, skills, and experience */
   .statHeader {
-    @apply font-bold underline text-gray-800;
+    @apply text-gray-200 font-bold underline;
+  }
+
+  .icon {
+    @apply w-16 h-16 m-2;
+  }
+
+  .background {
+    @apply bg-zinc-700;
+  }
+
+  .projectBox {
+    @apply bg-gray-900 p-4 border-2 border-solid border-neutral-600;
   }
 }

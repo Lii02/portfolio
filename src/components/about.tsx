@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { readText } from '../util/read';
+import readText from '../util/read';
 
 import AboutMeDesc from '../assets/descriptions/about.txt';
 
@@ -13,7 +13,7 @@ function About() {
   }, []);
 
   return (
-    <div className='p-4 bg-slate-500'>
+    <div className='p-4 background'>
       <h1>
         About
       </h1>
@@ -37,7 +37,7 @@ function About() {
             Skills
           </h2>
           <p>
-            Git, JS/TS, REST, React, Angular, Tailwind CSS, Flask, Game engine development, OpenGL, DirectX, Vulkan, Game programming, Compiler creation, Unity, Godot, 3D math, C, C++, C#, Python, Lua, SQL
+            JavaScript/TypeScript, React, Firebase, Docker, SQL, HTML/CSS, Python, Flask, Git
           </p>
         </div>
 
@@ -46,7 +46,7 @@ function About() {
             Experience
           </h2>
           <p>
-            Game Developer Intern - Menfes Interactive (September 2022 - December 2022)
+            Programmer Intern - Universal Phoenix Group (September 2022 - December 2022)
           </p>
         </div>
       </div>

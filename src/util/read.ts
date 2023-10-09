@@ -8,4 +8,4 @@ async function readText(src: string, setTextFn: (value: string) => void) {
   }
 }
 
-export { readText };
+export default readText;

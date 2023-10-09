@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { readText } from '../util/read';
+import readText from '../util/read';
 
 interface ProjectProps {
   projectName: string;
@@ -18,7 +18,7 @@ function Project(props: ProjectProps) {
   }, []);
 
   return (
-    <div className='m-2'>
+    <div className='m-2 projectBox'>
       <h3 className='projectTitle'>
         {props.projectName}
       </h3>

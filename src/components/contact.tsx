@@ -1,4 +1,4 @@
-import '../styles/contact.css';
+import '../styles/global.css';
 
 import React from 'react';
 
@@ -8,7 +8,7 @@ import LinkedinIcon from '../assets/icons/linkedin.png';
 
 function Contact() {
   return (
-    <div className='p-4 bg-gradient-to-t from-sky-800 to-slate-500'>
+    <div className='p-4 background'>
       <h1>
         Contact
       </h1>

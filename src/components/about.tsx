@@ -47,6 +47,7 @@ function About() {
           </h2>
           <p>
             Food Runner - Alamo Drafthouse (November 2023 - Present)
+            <br />
             Programmer Intern - Universal Phoenix Group (September 2022 - December 2022)
           </p>
         </div>

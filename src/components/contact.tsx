@@ -19,10 +19,6 @@ function Contact() {
       <p>
         Discord: li02
       </p>
-      
-      <p>
-        Last Updated: 10/9/23
-      </p>
 
       <a href='https://github.com/Lii02/portfolio' target='_blank' rel='noreferrer'>
         Source Code

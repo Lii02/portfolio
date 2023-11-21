@@ -37,7 +37,7 @@ function About() {
             Skills
           </h2>
           <p>
-            JavaScript/TypeScript, React, Firebase, Docker, SQL, HTML/CSS, Python, Flask, Git
+            JavaScript/TypeScript, React, Firebase, Docker, SQL, HTML/CSS, Python, Flask, Git, C/C++, OpenGL, Vulkan, DirectX 
           </p>
         </div>
 

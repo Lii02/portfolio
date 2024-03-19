@@ -1,0 +1,1 @@
+import{j as a}from"./index-C2Dd3yPv.js";function r(){return a.jsx("nav",{className:"px-4 py-10 background",children:a.jsx("span",{className:"navbarHeader",children:"Luke Inlow - Software Developer"})})}export{r as default};

@@ -24,7 +24,7 @@ function Project(props: ProjectProps) {
       </h3>
 
       <a href={props.link} target='_blank' rel='noreferrer'>
-        <img className='rounded-xl hover:rounded-2xl hover:scale-[1.01] transition-all w-[100%]' src={props.image} />
+        <img className='rounded-xl hover:scale-110 transition-all' src={props.image} />
       </a>
 
       <p className='text-gray-100'>

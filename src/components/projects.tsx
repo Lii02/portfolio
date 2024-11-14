@@ -23,12 +23,12 @@ import FlappyBirdDesc from '../assets/descriptions/flappy.txt';
 
 function Projects() {
   return (
-    <div className='p-4 background'>
-      <h1>
+    <div className='p-4'>
+      <h1 className='sectionHeader'>
         Projects
       </h1>
       
-      <div className='p-2 grid grid-cols-2'>
+      <div className='grid grid-cols-4'>
         <Project projectName='Sign In System' descriptionSrc={SignInDesc} link='https://github.com/Lii02/signin-system' image={SignInImage} />
         <Project projectName='FPS Dungeon' descriptionSrc={FPSDungeonDesc} link='https://lii02dev.itch.io/fps-dungeon' image={FPSDungeonImage} />
         <Project projectName='GOL' descriptionSrc={GOLDesc} link='https://github.com/Lii02/ConwayGOL' image={GOLImage} />

@@ -1,5 +1,4 @@
 import '../styles/global.css';
-
 import React from 'react';
 
 import GithubIcon from '../assets/icons/github-mark-white.png';
@@ -8,8 +7,8 @@ import LinkedinIcon from '../assets/icons/linkedin.png';
 
 function Contact() {
   return (
-    <div className='p-4 background'>
-      <h1>
+    <div className='p-4'>
+      <h1 className='sectionHeader'>
         Contact
       </h1>
 

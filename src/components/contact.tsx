@@ -4,6 +4,7 @@ import React from 'react';
 import GithubIcon from '../assets/icons/github-mark-white.png';
 import ItchioIcon from '../assets/icons/itchio.png';
 import LinkedinIcon from '../assets/icons/linkedin.png';
+import SquareInverted from '../assets/images/SquareInverted.png';
 
 function Contact() {
   return (
@@ -24,6 +25,10 @@ function Contact() {
       </a>
 
       <div className='flex justify-center'>
+        <a className='icon' href='https://github.com/Li-Studios-LLC' target='_blank' rel='noreferrer'>
+          <img className='rounded-3xl' src={SquareInverted} alt='Li Studios LLC' />
+        </a>
+
         <a className='icon' href='https://github.com/Lii02' target='_blank' rel='noreferrer'>
           <img src={GithubIcon} alt='GitHub' />
         </a>

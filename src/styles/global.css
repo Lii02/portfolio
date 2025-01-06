@@ -19,7 +19,7 @@
   }
 
   hr {
-    border-top: 0.5rem solid rgb(85, 85, 150);
+    border-top: 0.5rem solid rgb(25, 25, 25);
   }
 }
 
@@ -46,10 +46,10 @@
   }
 
   .background {
-    @apply bg-slate-600;
+    @apply bg-stone-600;
   }
 
   .projectBox {
-    @apply bg-stone-700 p-4 rounded-xl border-2 border-violet-600;
+    @apply bg-stone-700 p-4 border-2 border-slate-100;
   }
 }

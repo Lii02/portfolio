@@ -25,7 +25,7 @@ function Contact() {
       </a>
 
       <div className='flex justify-center'>
-        <a className='icon' href='https://github.com/Li-Studios-LLC' target='_blank' rel='noreferrer'>
+        <a className='icon' href='https://listudios.io' target='_blank' rel='noreferrer'>
           <img className='rounded-3xl' src={SquareInverted} alt='Li Studios LLC' />
         </a>
 

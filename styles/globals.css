@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+	margin: 0px 0px;
+	padding: 0px 0px;
+	background-image: url('https://lawsonblake.com/content/images/size/w2000/2020/05/Learn-to-Code.jpg');
+	background-size: cover;
+}
+
+p {
+	font-family: 'Space Grotesk';
+	color: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Roboto';
+	color: white;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a :hover {
+	color: rgb(200, 200, 200);
+}

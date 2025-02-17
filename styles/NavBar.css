@@ -1,0 +1,13 @@
+.NavBar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.NavBar a {
+	margin-left: 25px;
+}
+
+.NavBar a h2 {
+	margin-top: 25px;
+}

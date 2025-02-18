@@ -2,12 +2,34 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	padding: 25px 0px;
+	background-color: rgb(40, 40, 40);
 }
 
 .NavBar a {
+	display: inline-block;
 	margin-left: 25px;
+	color: white;
 }
 
-.NavBar a h2 {
-	margin-top: 25px;
+.NavBar * {
+	margin: 0px 10px;
+}
+
+.HomeButton {
+	transition: all var(--button-timing) ease;
+}
+
+.HomeButton:hover {
+	color: lightgray;
+}
+
+.NavButton {
+	padding: 10px 20px;
+	transition: all var(--button-timing) ease;
+}
+
+.NavButton:hover {
+	background-color: var(--button-color-hover);
+	border-radius: 30px;
 }

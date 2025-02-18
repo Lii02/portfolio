@@ -1,0 +1,12 @@
+.Project {
+}
+
+.Project .year {
+	font-size: 15px;
+}
+
+.Project img {
+	border-radius: 5px;
+	width: 50%;
+	height: auto;
+}

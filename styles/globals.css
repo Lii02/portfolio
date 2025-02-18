@@ -5,13 +5,14 @@
 body {
 	margin: 0px 0px;
 	padding: 0px 0px;
-	background-image: url('https://lawsonblake.com/content/images/size/w2000/2020/05/Learn-to-Code.jpg');
-	background-size: cover;
+
+	--button-color: rgb(0, 50, 255);
+	--button-color-hover: rgb(55, 85, 255);
+	--button-timing: 0.2s;
 }
 
 p {
 	font-family: 'Space Grotesk';
-	color: white;
 }
 
 h1,
@@ -19,17 +20,49 @@ h2,
 h3,
 h4 {
 	font-family: 'Roboto';
-	color: white;
 }
 
 h1 {
 	font-size: 50px;
 }
 
+p {
+	font-size: 20px;
+}
+
 a {
 	text-decoration: none;
 }
 
-a :hover {
-	color: rgb(200, 200, 200);
+.Section {
+	padding: 25px 50px;
+	background-color: rgb(220, 220, 220);
+	height: 100vh;
+}
+
+.AboutSection {
+	padding-right: 35%;
+}
+
+.Projects {
+	padding-right: 15%;
+}
+
+.LinkButton {
+	display: inline-block;
+	background-color: var(--button-color);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 15px;
+	transition: all var(--button-timing) ease;
+	cursor: pointer;
+}
+
+.LinkButton:hover {
+	background-color: var(--button-color-hover);
+}
+
+.LinkButton * {
+	margin: 0px 0px;
+	color: white;
 }

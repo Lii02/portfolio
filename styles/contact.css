@@ -1,10 +1,19 @@
-.Contact {
+.Email {
+	text-decoration: underline;
+	color: var(--button-color);
+	transition: all var(--button-timing) ease;
+}
+
+.Email:hover {
+	color: var(--button-color-hover);
 }
 
 .Socials {
+	margin-top: 25px;
 }
 
 .Socials img {
 	width: 64px;
 	height: 64px;
+	margin: 0px 10px;
 }

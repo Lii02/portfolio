@@ -1,16 +1,49 @@
 import '@/styles/contact.css';
+
+// Logos
 import Image from 'next/image';
 import github from '@/public/github-mark-white.png';
 import linkedin from '@/public/linkedin.png';
 import itchio from '@/public/itchio.png';
+import listudios from '@/public/SquareInverted.png';
 
 export default function Contact() {
 	return (
-		<div className='Contact'>
+		<div className='Contact Section'>
+			<section>
+				<h2>
+					Email:{' '}
+					<a href='mailto:lukeinlow@gmail.com' className='Email'>
+						lukeinlow@gmail.com
+					</a>
+				</h2>
+				<h2>Discord: li02</h2>
+				<h2 className='LinkButton'>
+					<a href='https://github.com/Lii02/portfolio' target='_blank'>
+						Source Code
+					</a>
+				</h2>
+			</section>
+
 			<section className='Socials'>
-				<Image src={github} alt='GitHub' />
-				<Image src={linkedin} alt='LinkedIn' />
-				<Image src={itchio} alt='ItchIO' />
+				<h2>Socials</h2>
+				<a href='https://github.com/Lii02' target='_blank'>
+					<Image src={github} alt='GitHub' />
+				</a>
+
+				<a
+					href='https://www.linkedin.com/in/luke-inlow-709b81100/'
+					target='_blank'>
+					<Image src={linkedin} alt='LinkedIn' />
+				</a>
+
+				<a href='https://lii02dev.itch.io/' target='_blank'>
+					<Image src={itchio} alt='Itch.io' />
+				</a>
+
+				<a href='https://listudios.io/' target='_blank'>
+					<Image src={listudios} alt='Li Studios' />
+				</a>
 			</section>
 		</div>
 	);

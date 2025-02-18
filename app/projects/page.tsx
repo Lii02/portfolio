@@ -1,4 +1,5 @@
-import Project from '@/components/Project';
+import dynamic from 'next/dynamic';
+const Project = dynamic(() => import('@/components/Project'));
 
 // Images
 import SignIn from '@/public/SignInUpdated.png';

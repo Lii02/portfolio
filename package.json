@@ -1,31 +1,30 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "homepage": "https://lii02.github.io/portfolio/",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "keywords": [],
-  "devDependencies": {
-    "@types/node": "^22.10.5",
-    "@types/react": "^19.0.2",
-    "@types/react-dom": "^19.0.2",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.20",
-    "gh-pages": "^6.3.0",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17",
-    "tslib": "^2.8.1",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.7"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  }
+	"name": "portfolio",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"format": "prettier --write .",
+		"deploy": "npm run build && gh-pages -d dist"
+	},
+	"dependencies": {
+		"next": "15.1.7",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3",
+		"@types/node": "^22",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "15.1.7",
+		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-prettier": "^5.2.3",
+		"gh-pages": "^6.3.0",
+		"prettier": "^3.5.1",
+		"typescript": "^5"
+	}
 }

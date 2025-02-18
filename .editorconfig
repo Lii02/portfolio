@@ -3,12 +3,6 @@ root = true
 
 [*]
 charset = utf-8
-indent_style = space
+indent_style = tab
 indent_size = 2
 end_of_line = crlf
-
-[*.ts]
-quote_type = single
-
-[*.md]
-max_line_length = off

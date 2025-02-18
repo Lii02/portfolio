@@ -1,1 +1,0 @@
-A simple flappy bird clone I wrote in C++ using SDL2. Click on image to go to itch.io page.

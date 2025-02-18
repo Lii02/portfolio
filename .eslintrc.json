@@ -1,0 +1,14 @@
+{
+	"extends": [
+		"next/core-web-vitals",
+		"eslint:recommended",
+		"plugin:@next/next/recommended",
+		"plugin:prettier/recommended"
+	],
+
+	"plugins": ["prettier"],
+
+	"rules": {
+		"prettier/prettier": ["error"]
+	}
+}

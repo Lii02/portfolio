@@ -18,11 +18,9 @@ export default function Contact() {
 					</a>
 				</h2>
 				<h2>Discord: li02</h2>
-				<h2 className='LinkButton'>
-					<a href='https://github.com/Lii02/portfolio' target='_blank'>
-						Source Code
-					</a>
-				</h2>
+				<a href='https://github.com/Lii02/portfolio' target='_blank'>
+					<h2 className='LinkButton'>Source Code</h2>
+				</a>
 			</section>
 
 			<section className='Socials'>

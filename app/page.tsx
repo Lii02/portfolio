@@ -23,8 +23,8 @@ export default function Home() {
 				<p>Programmer Intern - Universal Phoenix Group (2022)</p>
 				<h2>Skills</h2>
 				<p>
-					JavaScript/TypeScript, React, Firebase, Docker, SQL, HTML/CSS, Python,
-					Flask, Git, C/C++, OpenGL, Vulkan, DirectX
+					JavaScript/TypeScript, React, Supabase, Docker, SQL, HTML/CSS, Python,
+					Flask, Git, C/C++, Unity, OpenGL, Vulkan, DirectX
 				</p>
 			</section>
 		</div>

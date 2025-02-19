@@ -13,7 +13,7 @@ export default function Contact() {
 			<section>
 				<h2>
 					Email:{' '}
-					<a href='mailto:lukeinlow@gmail.com' className='Email'>
+					<a href='mailto://lukeinlow@gmail.com' className='Email'>
 						lukeinlow@gmail.com
 					</a>
 				</h2>

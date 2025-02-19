@@ -7,10 +7,7 @@ const nextConfig: NextConfig = {
 	skipTrailingSlashRedirect: true,
 	images: {
 		unoptimized: true,
-	},
-	eslint: {
-		ignoreDuringBuilds: true,
-	},
+	}
 };
 
 export default nextConfig;

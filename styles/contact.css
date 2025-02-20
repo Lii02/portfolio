@@ -1,11 +1,11 @@
 .Email {
 	text-decoration: underline;
-	color: var(--button-color);
+	color: var(--link-color);
 	transition: all var(--button-timing) ease;
 }
 
 .Email:hover {
-	color: var(--button-color-hover);
+	color: var(--link-color-hover);
 }
 
 .Socials {

@@ -1,18 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body {
-	margin: 0px 0px;
-	padding: 0px 0px;
-	background-color: rgb(220, 220, 220);
-
+:root {
+	--background-color: rgb(220, 220, 220);
+	--foreground-color: black;
+	--splitter-color: lightgray;
 	--button-color: rgb(0, 50, 255);
 	--button-color-hover: rgb(55, 85, 255);
+	--link-color: rgb(0, 50, 255);
+	--link-color-hover: rgb(55, 85, 255);
 	--button-timing: 0.2s;
 }
 
-p {
-	font-family: 'Space Grotesk';
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: rgb(20, 20, 20);
+		--foreground-color: white;
+		--splitter-color: rgb(25, 25, 25);
+	}
+}
+
+body {
+	margin: 0px 0px;
+	padding: 0px 0px;
+	background-color: var(--background-color);
+	color: var(--foreground-color);
 }
 
 h1,
@@ -28,6 +40,7 @@ h1 {
 
 p {
 	font-size: 20px;
+	font-family: 'Space Grotesk';
 }
 
 a {
@@ -35,7 +48,7 @@ a {
 }
 
 hr {
-	border: 1px solid lightgray;
+	border: 1px solid var(--splitter-color);
 }
 
 .Section {
@@ -63,9 +76,9 @@ hr {
 
 .LinkButton:hover {
 	background-color: var(--button-color-hover);
+	color: lightgray;
 }
 
 .LinkButton * {
 	margin: 0px 0px;
-	color: white;
 }

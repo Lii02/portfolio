@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
 	skipTrailingSlashRedirect: true,
 	images: {
 		unoptimized: true,
-	}
+	},
 };
 
 export default nextConfig;

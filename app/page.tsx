@@ -1,7 +1,7 @@
 export default function Home() {
 	return (
 		<div>
-			<section className='AboutSection Section'>
+			<section className='Section AboutSection'>
 				<h2>About Me</h2>
 				<p>
 					I am a software developer with a focus on game development, seeking a

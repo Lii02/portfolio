@@ -1,6 +1,5 @@
 .NavBar {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	padding: 25px 0px;
 	background: rgb(56, 56, 56);
@@ -20,6 +19,18 @@
 
 .NavBar * {
 	margin: 0px 10px;
+}
+
+@media (max-width: 480px) {
+	.NavBar {
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 1280px) {
+	.NavBar {
+		flex-direction: row;
+	}
 }
 
 .HomeButton {

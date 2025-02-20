@@ -1,12 +1,20 @@
-.Project {
-}
-
 .Project .year {
 	font-size: 15px;
 }
 
 .Project img {
 	border-radius: 5px;
-	width: 50%;
 	height: auto;
+}
+
+@media (max-width: 480px) {
+	.Project img {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1280px) {
+	.Project img {
+		width: 50%;
+	}
 }

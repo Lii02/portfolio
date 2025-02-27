@@ -29,9 +29,7 @@ export default function Contact() {
 					<Image src={github} alt='GitHub' />
 				</a>
 
-				<a
-					href='https://www.linkedin.com/in/luke-inlow-709b81100/'
-					target='_blank'>
+				<a href='https://www.linkedin.com/in/luke-inlow/' target='_blank'>
 					<Image src={linkedin} alt='LinkedIn' />
 				</a>
 

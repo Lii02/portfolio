@@ -14,4 +14,12 @@ describe('NavBar', () => {
 
 		expect(heading).toBeInTheDocument();
 	});
+
+	it('renders links', async () => {
+		render(<NavBar />);
+
+		const links = await screen.findAllByRole('heading', { level: 2 });
+
+		expect(links).toHaveLength(2);
+	});
 });

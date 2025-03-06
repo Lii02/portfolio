@@ -1,5 +1,6 @@
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
+import { ThemeProvider } from 'next-themes';
 import NavBar from '@/components/NavBar';
 
 export const metadata: Metadata = {
@@ -13,10 +14,12 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang='en'>
+		<html suppressHydrationWarning lang='en'>
 			<body>
-				<NavBar />
-				{children}
+				<ThemeProvider themes={['light', 'dark']}>
+					<NavBar />
+					{children}
+				</ThemeProvider>
 			</body>
 		</html>
 	);

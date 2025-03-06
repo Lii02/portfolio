@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import { ThemeProvider } from 'next-themes';
 import NavBar from '@/components/NavBar';
+import { spaceGrotesk, quantico } from './fonts';
 
 export const metadata: Metadata = {
 	title: 'Luke Inlow - Portfolio',
@@ -15,7 +16,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html suppressHydrationWarning lang='en'>
-			<body>
+			<body className={`${spaceGrotesk.variable} ${quantico.variable}`}>
 				<ThemeProvider themes={['light', 'dark']}>
 					<NavBar />
 					{children}

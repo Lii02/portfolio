@@ -1,5 +1,6 @@
 import '@/styles/NavBar.css';
 import Link from 'next/link';
+import { MdComputer, MdPhone } from 'react-icons/md';
 
 export default function NavBar() {
 	return (
@@ -9,11 +10,17 @@ export default function NavBar() {
 			</Link>
 
 			<Link href='/projects' className='NavButton'>
-				<h2>Projects</h2>
+				<h2>
+					<MdComputer />
+					Projects
+				</h2>
 			</Link>
 
 			<Link href='/contact' className='NavButton'>
-				<h2>Contact</h2>
+				<h2>
+					<MdPhone />
+					Contact
+				</h2>
 			</Link>
 		</nav>
 	);

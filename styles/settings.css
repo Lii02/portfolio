@@ -1,0 +1,10 @@
+.Settings {
+	.Option {
+		display: flex;
+		align-items: center;
+	}
+
+	.ThemeSwitch {
+		margin-left: 10px;
+	}
+}

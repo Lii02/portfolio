@@ -63,9 +63,9 @@
 @media (min-width: 768px) {
 	.NavBar {
 		flex-direction: row;
-	}
 
-	.SettingsButton {
-		margin-left: auto;
+		.SettingsButton {
+			margin-left: auto;
+		}
 	}
 }

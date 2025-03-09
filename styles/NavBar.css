@@ -9,16 +9,16 @@
 		rgba(66, 66, 66, 1) 50%,
 		rgba(112, 112, 112, 1) 100%
 	);
-}
 
-.NavBar a {
-	display: inline-block;
-	margin-left: 25px;
-	color: white;
-}
+	* {
+		margin: 0px 10px;
+	}
 
-.NavBar * {
-	margin: 0px 10px;
+	a {
+		display: inline-block;
+		margin-left: 25px;
+		color: white;
+	}
 }
 
 @media (max-width: 480px) {
@@ -43,10 +43,10 @@
 
 .NavButton {
 	padding: 10px 20px;
-	transition: all var(--button-timing) ease;
+	border-radius: 30px;
+	transition: all var(--button-timing) ease-out;
 }
 
 .NavButton:hover {
 	background-color: var(--button-color-hover);
-	border-radius: 30px;
 }

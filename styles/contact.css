@@ -10,10 +10,10 @@
 
 .Socials {
 	margin-top: 25px;
-}
 
-.Socials img {
-	width: 64px;
-	height: 64px;
-	margin: 0px 10px;
+	img {
+		width: 64px;
+		height: 64px;
+		margin: 0px 10px;
+	}
 }

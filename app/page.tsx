@@ -16,11 +16,15 @@ export default function Home() {
 					confident that I have the skills and experience necessary to be a
 					valuable asset to any team.
 				</p>
+				<hr />
 				<h2>Education</h2>
 				<p>B.Sc Computer Science - Full Sail University (2020-2022)</p>
+				<hr />
 				<h2>Experience</h2>
 				<p>Bartender - Alamo Drafthouse Cinema (2023-)</p>
 				<p>Programmer Intern - Universal Phoenix Group (2022)</p>
+				<hr />
+
 				<h2>Skills</h2>
 				<p>
 					JavaScript/TypeScript, React, Supabase, Docker, SQL, HTML/CSS, Python,

@@ -4,10 +4,10 @@ const ThemeSwitch = dynamic(() => import('@/components/ThemeSwitch'));
 
 export default function Settings() {
 	return (
-		<div className='Settings Section'>
+		<section className='Settings'>
 			<p className='Option'>
 				Theme: <ThemeSwitch />
 			</p>
-		</div>
+		</section>
 	);
 }

@@ -11,7 +11,7 @@ import FlappyBird from '@/public/FlappyBirdClone.png';
 
 export default function Projects() {
 	return (
-		<div className='Projects Section'>
+		<section className='Projects'>
 			<Project
 				name='This Site!'
 				description='This site itself I wrote to show off and practice my web development skills. I wrote it in TypeScript using the NextJS framework.'
@@ -61,6 +61,6 @@ export default function Projects() {
 				link='https://lii02dev.itch.io/flappy-bird-clone'
 				image={FlappyBird}
 			/>
-		</div>
+		</section>
 	);
 }

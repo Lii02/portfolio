@@ -9,8 +9,8 @@ import listudios from '@/public/SquareInverted.png';
 
 export default function Contact() {
 	return (
-		<div className='Contact Section'>
-			<section>
+		<section className='Contact'>
+			<div>
 				<h2>
 					Email:{' '}
 					<a href='mailto://lukeinlow@gmail.com' className='Email'>
@@ -21,9 +21,9 @@ export default function Contact() {
 				<a href='https://github.com/Lii02/portfolio' target='_blank'>
 					<h2 className='LinkButton'>Source Code</h2>
 				</a>
-			</section>
+			</div>
 
-			<section className='Socials'>
+			<div className='Socials'>
 				<h2>Socials</h2>
 				<a href='https://github.com/Lii02' target='_blank'>
 					<Image src={github} alt='GitHub' />
@@ -40,7 +40,7 @@ export default function Contact() {
 				<a href='https://listudios.io/' target='_blank'>
 					<Image src={listudios} alt='Li Studios' />
 				</a>
-			</section>
-		</div>
+			</div>
+		</section>
 	);
 }

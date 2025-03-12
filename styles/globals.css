@@ -51,7 +51,7 @@ hr {
 	border: 1px solid var(--splitter-color);
 }
 
-.Section {
+section {
 	height: 100vh;
 }
 
@@ -75,7 +75,7 @@ hr {
 }
 
 @media (max-width: 480px) {
-	.Section {
+	section {
 		padding: 10px 25px;
 	}
 
@@ -85,7 +85,7 @@ hr {
 }
 
 @media (min-width: 768px) {
-	.Section {
+	section {
 		padding: 25px 50px;
 	}
 

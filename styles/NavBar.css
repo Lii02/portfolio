@@ -52,16 +52,12 @@
 	.SettingsButton:hover {
 		background-color: var(--button-color-hover);
 	}
-}
 
-@media (max-width: 480px) {
-	.NavBar {
+	@media (max-width: 480px) {
 		flex-direction: column;
 	}
-}
 
-@media (min-width: 768px) {
-	.NavBar {
+	@media (min-width: 768px) {
 		flex-direction: row;
 
 		.SettingsButton {

@@ -6,7 +6,7 @@ export interface ProjectProps {
 	description: string;
 	year: number;
 	link: string;
-	image?: string | StaticImageData | null;
+	image?: string | StaticImageData | undefined;
 }
 
 export default function Project(props: ProjectProps) {

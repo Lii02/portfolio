@@ -1,4 +1,6 @@
-export default function Home() {
+import GitHubStats from '@/components/GitHubStats';
+
+export default async function Home() {
 	return (
 		<div>
 			<section className='Section AboutSection'>
@@ -27,9 +29,12 @@ export default function Home() {
 
 				<h2>Skills</h2>
 				<p>
-					JavaScript/TypeScript, React, Supabase, Docker, SQL, HTML/CSS, Python,
-					Flask, Git, C/C++, Unity, OpenGL, Vulkan, DirectX
+					JavaScript/TypeScript, React, Supabase, Docker, SQL, MongoDB,
+					HTML/CSS, Python, Flask, Git, C/C++, Unity, OpenGL, Vulkan, DirectX
 				</p>
+				<hr />
+				<h2>GitHub Stats</h2>
+				<GitHubStats />
 			</section>
 		</div>
 	);

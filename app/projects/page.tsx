@@ -1,5 +1,9 @@
 import dynamic from 'next/dynamic';
-const Project = dynamic(() => import('@/components/Project'));
+import Skeleton from 'react-loading-skeleton';
+
+const Project = dynamic(() => import('@/components/Project'), {
+	loading: () => <Skeleton />,
+});
 
 // Images
 import SignIn from '@/public/SignInUpdated.png';

@@ -1,22 +1,23 @@
 .Project {
-	.year {
-		font-size: 15px;
-	}
+}
 
-	img {
-		border-radius: 5px;
-		height: auto;
-	}
+.Project .year {
+	font-size: 15px;
+}
 
-	@media (max-width: 480px) {
-		img {
-			width: 100%;
-		}
-	}
+.Project img {
+	border-radius: 5px;
+	height: auto;
+}
 
-	@media (min-width: 768px) {
-		img {
-			width: 50%;
-		}
+@media (max-width: 480px) {
+	.Project img {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.Project img {
+		width: 50%;
 	}
 }

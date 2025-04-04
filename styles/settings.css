@@ -1,10 +1,11 @@
 .Settings {
-	.Option {
-		display: flex;
-		align-items: center;
-	}
+}
 
-	.ThemeSwitch {
-		margin-left: 10px;
-	}
+.Setting .Option {
+	display: flex;
+	align-items: center;
+}
+
+.Setting .ThemeSwitch {
+	margin-left: 10px;
 }

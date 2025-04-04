@@ -9,59 +9,63 @@
 		rgba(66, 66, 66, 1) 50%,
 		rgba(112, 112, 112, 1) 100%
 	);
+}
 
-	* {
-		margin: 0px 10px;
-	}
+.NavBar * {
+	margin: 0px 10px;
+}
 
-	a {
-		display: inline-block;
-		margin-left: 25px;
-		color: white;
-	}
+.NavBar a {
+	display: inline-block;
+	margin-left: 25px;
+	color: white;
+}
 
-	h2 {
-		display: flex;
-		align-items: center;
-	}
+.NavBar h2 {
+	display: flex;
+	align-items: center;
+}
 
-	.HomeButton {
-		transition: all var(--button-timing) ease;
-	}
+.NavBar .HomeButton {
+	transition: all var(--button-timing) ease;
+}
 
-	.HomeButton:hover {
-		color: lightgray;
-	}
+.NavBar .HomeButton:hover {
+	color: lightgray;
+}
 
-	.NavButton {
-		padding: 10px 20px;
-		border-radius: 30px;
-		transition: all var(--button-timing) ease-out;
-	}
+.NavBar .NavButton {
+	padding: 10px 20px;
+	border-radius: 30px;
+	transition: all var(--button-timing) ease-out;
+}
 
-	.NavButton:hover {
-		background-color: var(--button-color-hover);
-	}
+.NavBar .NavButton:hover {
+	background-color: var(--button-color-hover);
+}
 
-	.SettingsButton {
-		padding: 5px 10px;
-		border-radius: 30px;
-		transition: all var(--button-timing) ease-out;
-	}
+.NavBar .SettingsButton {
+	padding: 5px 10px;
+	border-radius: 30px;
+	transition: all var(--button-timing) ease-out;
+}
 
-	.SettingsButton:hover {
-		background-color: var(--button-color-hover);
-	}
+.NavBar .SettingsButton:hover {
+	background-color: var(--button-color-hover);
+}
 
-	@media (max-width: 480px) {
+@media (max-width: 480px) {
+	.NavBar {
 		flex-direction: column;
 	}
+}
 
-	@media (min-width: 768px) {
+@media (min-width: 768px) {
+	.NavBar {
 		flex-direction: row;
+	}
 
-		.SettingsButton {
-			margin-left: auto;
-		}
+	.NavBar .SettingsButton {
+		margin-left: auto;
 	}
 }

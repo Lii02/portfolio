@@ -1,10 +1,10 @@
 .GitHubStats {
 	display: flex;
 	flex-direction: row;
+}
 
-	@media (min-width: 768px) {
-		p {
-			margin-right: auto;
-		}
+@media (min-width: 768px) {
+	.GitHubStats p {
+		margin-right: auto;
 	}
 }

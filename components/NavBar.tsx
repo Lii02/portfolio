@@ -1,6 +1,7 @@
 import '@/styles/NavBar.css';
 import Link from 'next/link';
 import { MdComputer, MdPhone, MdSettings } from 'react-icons/md';
+import { LuNotebook } from 'react-icons/lu';
 
 export default function NavBar() {
 	return (
@@ -16,6 +17,13 @@ export default function NavBar() {
 				</h2>
 			</Link>
 
+			<Link href='/current' className='NavButton'>
+				<h2>
+					<LuNotebook />
+					Working On
+				</h2>
+			</Link>
+
 			<Link href='/contact' className='NavButton'>
 				<h2>
 					<MdPhone />
@@ -23,7 +31,7 @@ export default function NavBar() {
 				</h2>
 			</Link>
 
-			<Link href='/settings' className='SettingsButton'>
+			<Link href='/settings' className='NavButton SettingsButton'>
 				<h2>
 					<MdSettings />
 				</h2>

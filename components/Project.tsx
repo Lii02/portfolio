@@ -14,7 +14,7 @@ export default function Project(props: ProjectProps) {
 		<div className='Project'>
 			<h2>
 				{props.name}
-				<span className='year'> - {props.year}</span>
+				<span style={{ fontSize: 15 }}> - {props.year}</span>
 			</h2>
 			<a href={props.link} target='_blank' className='LinkButton'>
 				<p>Link</p>

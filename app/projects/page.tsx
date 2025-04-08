@@ -17,6 +17,12 @@ export default function Projects() {
 	return (
 		<section className='Projects'>
 			<Project
+				name='This Site!'
+				description='This site itself I wrote to show off and practice my web development skills. I wrote it in TypeScript using the NextJS framework.'
+				year={2025}
+				link='/'
+			/>
+			<Project
 				name='Sign In System'
 				description='A very primitive sign in system I built to learn the basics of full stack. I wrote the the frontend in TypeScript using React, and wrote the backend in Python using Flask. I recently went back and improved the code.'
 				year={2024}

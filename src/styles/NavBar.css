@@ -1,0 +1,57 @@
+.NavBar {
+	display: flex;
+	align-items: center;
+	padding: 25px 0px;
+	background: rgb(56, 56, 56);
+	background: linear-gradient(
+		180deg,
+		rgba(56, 56, 56, 1) 0%,
+		rgba(66, 66, 66, 1) 50%,
+		rgba(112, 112, 112, 1) 100%
+	);
+}
+
+.NavBar * {
+	margin: 0px 10px;
+}
+
+.NavBar a {
+	display: inline-block;
+	margin-left: 25px;
+	color: white;
+}
+
+.NavBar h2 {
+	display: flex;
+	align-items: center;
+}
+
+.NavBar .HomeButton {
+	transition: all var(--button-timing) ease;
+}
+
+.NavBar .HomeButton:hover {
+	color: lightgray;
+}
+
+.NavBar .NavButton {
+	padding: 10px 20px;
+	border-radius: 30px;
+	transition: all var(--button-timing) ease-out;
+}
+
+.NavBar .NavButton:hover {
+	background-color: var(--button-color-hover);
+}
+
+@media (max-width: 480px) {
+	.NavBar {
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 768px) {
+	.NavBar {
+		flex-direction: row;
+	}
+}

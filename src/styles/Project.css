@@ -1,0 +1,19 @@
+.Project {
+}
+
+.Project img {
+	border-radius: 5px;
+	height: auto;
+}
+
+@media (max-width: 480px) {
+	.Project img {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.Project img {
+		width: 50%;
+	}
+}

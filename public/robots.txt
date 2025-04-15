@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://lukeinlow.listudios.io/
+
+# Sitemaps
+Sitemap: http://lukeinlow.listudios.io/sitemap.xml

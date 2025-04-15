@@ -1,5 +1,7 @@
 import { Route, Routes } from 'react-router';
 import RootLayout from './layout';
+
+// Routes
 import Home from './routes/home';
 import Projects from './routes/projects';
 import Current from './routes/current';

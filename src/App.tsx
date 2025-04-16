@@ -1,11 +1,6 @@
 import { Route, Routes } from 'react-router';
 import RootLayout from './layout';
-
-// Routes
-import Home from './routes/home';
-import Projects from './routes/projects';
-import Current from './routes/current';
-import Contact from './routes/contact';
+import { Contact, Current, Home, Projects } from './routes';
 
 function App() {
 	return (

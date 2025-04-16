@@ -4,6 +4,12 @@ export default function Current() {
 	return (
 		<section className='Projects'>
 			<Project
+				name='Sen'
+				description='High level programming language and compiler. Written in in C++.'
+				link='https://github.com/Lii02/sen'
+				year={2025}
+			/>
+			<Project
 				name='liTech'
 				description='An OpenGL game engine written in C++.'
 				year={2025}

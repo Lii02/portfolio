@@ -3,6 +3,10 @@ import { Project } from '@/components';
 export default function Current() {
 	return (
 		<section className='Projects'>
+			<p>
+				Projects I'm currently working on, with attention and work distrbuted
+				based on my current interests.
+			</p>
 			<Project
 				name='Sen'
 				description='High level programming language and compiler. Written in in C++.'

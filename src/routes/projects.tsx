@@ -1,12 +1,12 @@
 import { Project } from '@/components';
 
 // Images
-import SignIn from '/SignInUpdated.png';
-import FPSDungeon from '/FPSDungeon.png';
-import GOL from '/GOL.png';
-import VulkanRenderer from '/VulkanRenderer.jpg';
-import Hoddsmimir from '/Hoddsmimir.png';
-import FlappyBird from '/FlappyBirdClone.png';
+import SignIn from '@/assets/SignInUpdated.png';
+import FPSDungeon from '@/assets/FPSDungeon.png';
+import GOL from '@/assets/GOL.png';
+import VulkanRenderer from '@/assets/VulkanRenderer.jpg';
+import Hoddsmimir from '@/assets/Hoddsmimir.png';
+import FlappyBird from '@/assets/FlappyBirdClone.png';
 
 export default function Projects() {
 	return (

@@ -1,10 +1,10 @@
 import '@/styles/contact.css';
 
 // Logos
-import github from '/github-mark-white.png';
-import linkedin from '/linkedin.png';
-import itchio from '/itchio.png';
-import listudios from '/SquareInverted.png';
+import github from '@/assets/github-mark-white.png';
+import linkedin from '@/assets/linkedin.png';
+import itchio from '@/assets/itchio.png';
+import listudios from '@/assets/SquareInverted.png';
 
 export default function Contact() {
 	return (

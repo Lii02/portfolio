@@ -22,7 +22,7 @@ export default function Home() {
 			<p>B.Sc Computer Science - Full Sail University (2020-2022)</p>
 			<hr />
 			<h2>Experience</h2>
-			<p>Bartender - Alamo Drafthouse Cinema (2023-)</p>
+			<p>Bartender/Server - Alamo Drafthouse Cinema (2023-)</p>
 			<p>Programmer Intern - Universal Phoenix Group (2022)</p>
 			<hr />
 

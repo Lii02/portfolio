@@ -7,6 +7,7 @@ import GOL from '@/assets/GOL.png';
 import VulkanRenderer from '@/assets/VulkanRenderer.jpg';
 import Hoddsmimir from '@/assets/Hoddsmimir.png';
 import FlappyBird from '@/assets/FlappyBirdClone.png';
+import SteamDreams from '@/assets/steamdreams.jpg';
 
 export default function Projects() {
 	return (
@@ -16,6 +17,13 @@ export default function Projects() {
 				description='This site itself I wrote to show off and practice my web development skills. I wrote it in TypeScript using Vite and React.'
 				year={2025}
 				link='/'
+			/>
+			<Project
+				name='STEAM Dreams'
+				description='I worked on this game during my internship at Universal Phoenix Group. I worked on a handful of minigames, and systems.'
+				year={2025}
+				link='https://steamdreams.io/'
+				image={SteamDreams}
 			/>
 			<Project
 				name='Sign In System'

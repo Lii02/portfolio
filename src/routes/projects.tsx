@@ -58,7 +58,7 @@ export default function Projects() {
 				name='Hoddsmimir'
 				description='This game was made by 5 programmers, with the work split more into 4 of us. My work included, but not limited to: WebGL port, audio, inventory. It was made in Unity in 3 months.'
 				year={2021}
-				link='https://lii02dev.itch.io/hoddsmimir%22'
+				link='https://lii02dev.itch.io/hoddsmimir'
 				image={Hoddsmimir}
 			/>
 			<Project

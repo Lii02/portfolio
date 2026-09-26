@@ -188,7 +188,6 @@ section.work {
   display: inline-flex;
   align-items: center;
   font-family: 'Space Mono', monospace;
-  font-weight: 700;
   font-size: 13px;
   text-decoration: none;
   color: var(--ink);

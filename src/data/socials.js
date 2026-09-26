@@ -7,6 +7,18 @@ export const socials = [
 		href: 'https://github.com/Lii02',
 	},
 	{
+		id: 'email',
+		label: 'Email',
+		handle: 'lukeinlow@email.com',
+		href: 'mailto:lukeinlow@email.com',
+	},
+	{
+		id: 'discord',
+		label: 'Discord',
+		handle: 'li02',
+		href: 'https://discord.com/users/li02',
+	},
+	{
 		id: 'linkedin',
 		label: 'LinkedIn',
 		handle: 'linkedin.com/in/luke-inlow',
@@ -19,15 +31,9 @@ export const socials = [
 		href: 'https://lii02dev.itch.io/',
 	},
 	{
-		id: 'discord',
-		label: 'Discord',
-		handle: 'li02',
-		href: 'https://discord.com/users/li02',
-	},
-	{
-		id: 'email',
-		label: 'Email',
-		handle: 'lukeinlow@email.com',
-		href: 'mailto:lukeinlow@email.com',
+		id: 'bluesky',
+		label: 'Bluesky',
+		handle: 'lukeinlow.bsky.social',
+		href: 'https://bsky.app/profile/lukeinlow.bsky.social',
 	},
 ];

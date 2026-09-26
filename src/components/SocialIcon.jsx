@@ -1,6 +1,6 @@
 const common = {
-	width: 25,
-	height: 25,
+	width: 24,
+	height: 24,
 	viewBox: '0 0 24 24',
 	fill: 'none',
 	stroke: 'currentColor',
@@ -53,6 +53,8 @@ export default function SocialIcon({ id }) {
 					<path d='m3.5 6 8.5 7 8.5-7' />
 				</svg>
 			);
+		case 'bluesky':
+			return <svg {...common}></svg>;
 		default:
 			return null;
 	}

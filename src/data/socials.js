@@ -36,4 +36,10 @@ export const socials = [
 		handle: 'lukeinlow.bsky.social',
 		href: 'https://bsky.app/profile/lukeinlow.bsky.social',
 	},
+	{
+		id: 'listudios',
+		label: 'Li Studios',
+		handle: 'listudios.io',
+		href: 'https://listudios.io',
+	},
 ];

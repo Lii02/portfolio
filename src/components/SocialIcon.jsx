@@ -55,6 +55,8 @@ export default function SocialIcon({ id }) {
 			);
 		case 'bluesky':
 			return <svg {...common}></svg>;
+		case 'listudios':
+			return <svg {...common}></svg>;
 		default:
 			return null;
 	}

@@ -178,13 +178,13 @@ section.work {
 	font-family: 'JetBrains Mono', monospace;
 	font-size: 17px;
 	font-weight: 700;
-	margin: 0 0 4px;
+	margin: 0px 0px 4px;
 }
 
 .card-role {
 	font-size: 13px;
 	color: var(--amber);
-	margin: 0 0 12px;
+	margin: 0px 0px 12px;
 	font-family: 'JetBrains Mono', monospace;
 }
 
@@ -192,7 +192,7 @@ section.work {
 	font-size: 15px;
 	line-height: 1.55;
 	color: var(--ink-dim);
-	margin: 0 0 16px;
+	margin: 0px 0px 16px;
 }
 
 .card-link {
@@ -232,7 +232,7 @@ section.work {
 }
 
 .elsewhere {
-	padding: 8px 0 56px;
+	padding: 8px 0px 56px;
 }
 
 .social-grid {
